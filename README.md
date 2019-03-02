@@ -42,7 +42,7 @@ You should see the alert changing status when refreshing the page after 1 minute
 Use your browser or curl to query nginx on http://localhost for 200 response.\
 Use it on http://localhost/books for 404 response.
 
-Follow this link to see nginx requests by status codes:\
+Follow this link to see nginx status codes rates: \
 http://localhost:9090/graph?g0.range_input=1h&g0.expr=nginx_server_requests&g0.tab=1
 
 It is reccommended to write your own os script in order to see alerting in action.
