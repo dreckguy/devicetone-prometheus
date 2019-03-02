@@ -24,7 +24,7 @@ You should see prometheus dashboard
 
 If you have powershell open another terminal and type:
 ```
-./test.ps1
+.\test.ps1
 ```
 Follow the link : http://localhost:9090/alerts \
 You should see the alert changing status when refreshing the page after 1 minute.
