@@ -13,12 +13,19 @@ You need to have docker and docker-compose installed.\
 If you use windows make sure you have powershell in order to use the test file.
 
 ### Installing
-Install prometheus, nginx, and nginx-exporter by typing withing the directory:
+Install the system by typing:
 ```
+cd devicetone-prometheus
 docker-compose up
 ```
-Follow the link: http://localhost:9090 \
-You should see prometheus dashboard
+This will run Prometheus container, nginx container, and nginx-exporter container. \
+Prometheus will be configured by prometheus.yml and alerts.yml located in the config folder.
+It will monitor response rate of the nginx container by using Nginx-exporter metrics page. \
+This exporter will use nginx VTS module located in the specific nginx container and format its response to fit the Prometheus system.
+
+
+In order to check if all containers are up and running follow the link: http://localhost:9090/targets \
+You should see prometheus dashboard and all containers mentioned.
 
 ### Testing using powershell
 
