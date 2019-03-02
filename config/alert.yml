@@ -1,0 +1,17 @@
+groups:
+- name: high error response rate
+  rules:
+  - alert: Page not found Error
+    expr: (sum(nginx_server_requests{code="4xx"}) / sum (nginx_server_requests{code="total"}) ) > 0.5
+    for: 1m
+    labels:
+      severity: High
+    annotations:
+      description: More than 50% of requests get "4xx" Error
+  - alert: Internal Server Error
+    expr: (sum(nginx_server_requests{code="5xx"}) / sum (nginx_server_requests{code="total"}) ) > 0.5
+    for: 1m
+    labels:
+      severity: High
+    annotations:
+      description: More than 50% of requests get "5xx" Error

@@ -1,0 +1,17 @@
+version: "3"
+services:
+  prometheus:
+    image: prom/prometheus
+    ports:
+     - 9090:9090
+    volumes:
+     - ./config:/etc/prometheus
+
+  nginx:
+    image: gaciaga/nginx-vts
+    ports:
+     - 80:80
+  nginx-exporter:
+    image: sophos/nginx-vts-exporter
+    environment:
+     - NGINX_STATUS=http://nginx/status/format/json
