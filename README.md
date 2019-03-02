@@ -31,7 +31,7 @@ You should see the alert changing status when refreshing the page after 1 minute
 
 ## Testing without powershell
 Use your browser or curl to query nginx on http://localhost for 200 response.\
-Use it on http://localhost/books for 404 resoinse.
+Use it on http://localhost/books for 404 response.
 
 Follow this link to see nginx requests by status codes:\
 http://localhost:9090/graph?g0.range_input=1h&g0.expr=nginx_server_requests&g0.tab=1
