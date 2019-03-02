@@ -43,7 +43,7 @@ Please note that nginx-exporter query nginx as well and each of correct query is
 ## Built With
 * [Prometheus](https://prometheus.io/) - The Monitoring tool
 * [Nginx with VTS](https://hub.docker.com/r/gaciaga/nginx-vts/) - Docker image of Nginx configured with VTS module that shows status code rates.
-* [Nginx-vts-exporter](https://hub.docker.com/r/sophos/nginx-vts-exporter/) - Docker image of Proetheus exporter of the VTS status response.
+* [Nginx-vts-exporter](https://hub.docker.com/r/sophos/nginx-vts-exporter/) - Docker image of Prometheus exporter of the VTS status response.
 
 ## Author
 **Ophir Haramaty** dreckguy@gmail.com
