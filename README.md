@@ -22,7 +22,7 @@ You should see prometheus dashboard
 
 ### Testing using powershell
 
-If you have powershell type:
+If you have powershell open another terminal and type:
 ```
 ./test.ps1
 ```
