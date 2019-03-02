@@ -48,4 +48,4 @@ please note that nginx-exporter query nginx as well and each of correct query is
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Author
-* **Ophir Haramaty** dreckguy@gmail.com
+**Ophir Haramaty** dreckguy@gmail.com
