@@ -17,7 +17,7 @@ Install prometheus, nginx, and nginx-exporter by typing:
 ```
 docker-compose up
 ```
-Follow the link: http://localhost:9090\
+Follow the link: http://localhost:9090 \
 You should see prometheus dashboard
 
 ## Testing using powershell
@@ -26,7 +26,7 @@ If you have powershell type:
 ```
 ./test.ps1
 ```
-Follow the link : http://localhost:9090/alerts\
+Follow the link : http://localhost:9090/alerts \
 You should see the alert changing status when refreshing the page after 1 minute.
 
 ## Testing without powershell
