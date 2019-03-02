@@ -26,7 +26,7 @@ If you have powershell open another terminal and type:
 ```
 .\test.ps1
 ```
-This will enlarge 404 response rate by querying nginx with wrong address. \
+This will enlarge 404 response rate by querying nginx with wrong address. 
 
 Follow the link : http://localhost:9090/alerts \
 You should see the alert changing status when refreshing the page after 1 minute.
