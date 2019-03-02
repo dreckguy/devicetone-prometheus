@@ -4,7 +4,10 @@ It was made as an exercise for Devicetone devops position.
 
 ## Getting Started
 clone the repository by typing:
+```
 git clone https://github.com/dreckguy/devicetone-prometheus.git
+```
+
 
 ### Prerequisites
 You need to have docker and docker-compose installed.
