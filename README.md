@@ -13,7 +13,7 @@ You need to have docker and docker-compose installed.\
 If you use windows make sure you have powershell in order to use the test file.
 
 ### Installing
-Install prometheus, nginx, and nginx-exporter by typing:
+Install prometheus, nginx, and nginx-exporter by typing withing the directory:
 ```
 docker-compose up
 ```
