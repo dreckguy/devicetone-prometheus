@@ -43,9 +43,9 @@ The Alert will fire if more then 50% of requests get an 4xx error code or if mor
 please note that nginx-exporter query nginx as well and each of correct query is counted as 200 response.
 
 ## Built With
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Prometheus](https://prometheus.io/) - The Monitoring tool
+* [Nginx with VTS](https://hub.docker.com/r/gaciaga/nginx-vts/) - Docker image of Nginx configured with VTS module that shows status code rates.
+* [Nginx-vts-exporter](https://hub.docker.com/r/sophos/nginx-vts-exporter/) - Prometheus exporter of the VTS status response.
 
 ## Author
 **Ophir Haramaty** dreckguy@gmail.com
