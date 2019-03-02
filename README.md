@@ -1,5 +1,5 @@
 # Monitoring nginx with Prometheus
-This Project shows how to monitor nginx on kubernetes cluster.
+This Project shows how to monitor nginx on kubernetes cluster. \
 It was made as an exercise for Devicetone devops position.
 
 ## Getting Started
