@@ -1,4 +1,4 @@
-# monitoring nginx with Prometheus
+# Monitoring nginx with Prometheus
 This Project shows how to monitor nginx on kubernetes cluster.
 It was made as an exercise for Devicetone devops position.
 
@@ -29,11 +29,11 @@ If you have powershell type:
 Follow the link : http://localhost:9090/alerts
 You should see the alert changing status when refreshing the page after 1 minute.
 
-## testing without powershell
-use your browser or curl to query nginx on http:localhost for 200 response.
+## Testing without powershell
+use your browser or curl to query nginx on http://localhost for 200 response.
 use it on http://localhost/books for 404 resoinse.
 
-follow this link to see nginx requests by status codes:
+Follow this link to see nginx requests by status codes:
 ```
 http://localhost:9090/graph?g0.range_input=1h&g0.expr=nginx_server_requests&g0.tab=1
 ```
@@ -45,7 +45,7 @@ please note that nginx-exporter query nginx as well and each of correct query is
 ## Built With
 * [Prometheus](https://prometheus.io/) - The Monitoring tool
 * [Nginx with VTS](https://hub.docker.com/r/gaciaga/nginx-vts/) - Docker image of Nginx configured with VTS module that shows status code rates.
-* [Nginx-vts-exporter](https://hub.docker.com/r/sophos/nginx-vts-exporter/) - Prometheus exporter of the VTS status response.
+* [Nginx-vts-exporter](https://hub.docker.com/r/sophos/nginx-vts-exporter/) - Docker image of Proetheus exporter of the VTS status response.
 
 ## Author
 **Ophir Haramaty** dreckguy@gmail.com
