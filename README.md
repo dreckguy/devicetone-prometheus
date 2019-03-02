@@ -20,7 +20,7 @@ docker-compose up
 Follow the link: http://localhost:9090 \
 You should see prometheus dashboard
 
-## Testing using powershell
+### Testing using powershell
 
 If you have powershell type:
 ```
@@ -29,7 +29,7 @@ If you have powershell type:
 Follow the link : http://localhost:9090/alerts \
 You should see the alert changing status when refreshing the page after 1 minute.
 
-## Testing without powershell
+### Testing without powershell
 Use your browser or curl to query nginx on http://localhost for 200 response.\
 Use it on http://localhost/books for 404 response.
 
