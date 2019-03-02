@@ -3,7 +3,7 @@ This Project shows how to monitor nginx on kubernetes cluster. \
 It was made as an exercise for Devicetone devops position.
 
 ## Getting Started
-clone the repository by typing:
+Clone the repository by typing:
 ```
 git clone https://github.com/dreckguy/devicetone-prometheus.git
 ```
