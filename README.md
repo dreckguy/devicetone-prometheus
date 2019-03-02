@@ -21,7 +21,7 @@ docker-compose up
 This will run Prometheus container, nginx container, and nginx-exporter container. \
 Prometheus will be configured by prometheus.yml and alerts.yml located in the config folder.
 It will monitor response rate of the nginx container by using Nginx-exporter metrics page. \
-This exporter will use nginx VTS module located in the specific nginx container and format its response to fit the Prometheus system.
+This exporter uses nginx VTS module located in the specific nginx container and format its response to fit the Prometheus system.
 
 
 In order to check if all containers are up and running follow the link: http://localhost:9090/targets \
