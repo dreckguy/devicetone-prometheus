@@ -25,7 +25,7 @@ This exporter uses nginx VTS module located in the specific nginx container and 
 
 
 In order to check if all containers are up and running follow the link: http://localhost:9090/targets \
-You should see prometheus dashboard and all containers mentioned.
+You should see prometheus dashboard showing nginx and Prometheus endpoints with "Up" state.
 
 ### Testing using powershell
 
